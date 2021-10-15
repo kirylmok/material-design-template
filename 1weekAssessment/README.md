@@ -41,7 +41,7 @@ crontab -e
 sudo cat /var/log/syslog 
 ```
 
-<img src="cron log.png"
+<img src="./.images/cron%20log.png"
 	alt="Cron log screenshot"
 	style="float: left;" />
 
@@ -81,10 +81,10 @@ server {
 git rebase -i 
 ```
 
-<img src="git log before squash.png"
+<img src="./.images/git%20log%20before%20squash.png"
      alt="Git log before squash screenshot"
      style="float: left;" />
 
-<img src="git log after squash.png"
+<img src="./.images/git%20log%20after%20squash.png"
      alt="Git log after squash screenshot"
      style="float: left;" />
