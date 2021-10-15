@@ -1,4 +1,4 @@
-### For git and nginx installation I was using this commands:
+### 1. For git and nginx installation I was using this commands:
 
 ```bash
 sudo apt update 
@@ -14,7 +14,7 @@ git config --global user.name "Kiryl Makeichau"
 git config --global user.email "kirylm@playtika.com"
 ```
 
-### After configuring git I generate ssh key and clone repo:
+### 2. After configuring git I generate ssh key and clone repo:
 
 ```bash
 ssh-keygen
@@ -23,7 +23,7 @@ ssh-keygen
 git clone git@github.com:kirylmok/material-design-template.git
 ```
 
-### Then I setup cron job to checkout main branch every minute:
+### 3. Then I setup cron job to checkout main branch every minute:
 
 ```bash
 crontab -e
@@ -45,7 +45,7 @@ sudo cat /var/log/syslog
 	alt="Cron log screenshot"
 	style="float: left;" />
 
-### Then I changed index.html file and push changes to git:
+### 4. Then I changed index.html file and push changes to git:
 
 ```git
 nano index.html
@@ -75,7 +75,7 @@ server {
 	}
 ```
 
-### To squash all my commits in one I used this command:
+### ** To squash all my commits in one I used this command:
 
 ```git
 git rebase -i 
@@ -83,8 +83,10 @@ git rebase -i
 
 <img src="./.images/git%20log%20before%20squash.png"
      alt="Git log before squash screenshot"
-     style="float: left;" />
+     style="margin-left: auto;
+  margin-right: auto; width:600px; height:400px;" />
 
 <img src="./.images/git%20log%20after%20squash.png"
      alt="Git log after squash screenshot"
-     style="float: left;" />
+     style="margin-left: auto;
+  margin-right: auto; width:600px; height:400px;" />
