@@ -157,6 +157,10 @@ pipeline {
 
 ### 5. Setup the GitHub webhook to trigger the jobs:
 
+<img src="./.images/githubCredentials.png"
+     alt="Screenshot"
+     style="margin-left: auto; margin-right: auto" />
+
 <img src="./.images/personalAccessToken.png"
      alt="Screenshot"
      style="margin-left: auto; margin-right: auto" />
@@ -168,4 +172,3 @@ pipeline {
 <img src="./.images/webhookDeliveries.png"
      alt="Screenshot"
      style="margin-left: auto; margin-right: auto" />
-     
