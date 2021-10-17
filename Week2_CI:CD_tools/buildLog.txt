@@ -1,0 +1,242 @@
+Started by user Kiryl Makeichau
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-aa4d17ed90ed26f36338a22c85f97266/.git # timeout=10
+Setting origin to https://github.com/kirylmok/material-design-template.git
+ > git config remote.origin.url https://github.com/kirylmok/material-design-template.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/master
+Seen 1 remote branch
+Obtained Jenkinsfile from 5bce9d0c102ca6b9095112296d0588f7e15005c1
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on slave in /root/jenkins-slave/workspace/Lab_Lab_master
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+The recommended git tool is: git
+using credential kirylmok
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 5bce9d0c102ca6b9095112296d0588f7e15005c1 (master)
+Commit message: "Update Jenkinsfile"
+ > git rev-parse --resolve-git-dir /root/jenkins-slave/workspace/Lab_Lab_master/.git # timeout=10
+ > git config remote.origin.url https://github.com/kirylmok/material-design-template.git # timeout=10
+Fetching upstream changes from https://github.com/kirylmok/material-design-template.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://github.com/kirylmok/material-design-template.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5bce9d0c102ca6b9095112296d0588f7e15005c1 # timeout=10
+ > git rev-list --no-walk 5bce9d0c102ca6b9095112296d0588f7e15005c1 # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Tool Install)
+[Pipeline] tool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_47_072Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_47_867Z-debug.log
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Checkout)
+[Pipeline] tool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_48_817Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_49_610Z-debug.log
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] checkout
+The recommended git tool is: git
+using credential kirylmok
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 5bce9d0c102ca6b9095112296d0588f7e15005c1 (master)
+Commit message: "Update Jenkinsfile"
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (NPM installation)
+[Pipeline] tool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+ > git rev-parse --resolve-git-dir /root/jenkins-slave/workspace/Lab_Lab_master/.git # timeout=10
+ > git config remote.origin.url https://github.com/kirylmok/material-design-template.git # timeout=10
+Fetching upstream changes from https://github.com/kirylmok/material-design-template.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://github.com/kirylmok/material-design-template.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5bce9d0c102ca6b9095112296d0588f7e15005c1 # timeout=10
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_51_082Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_51_873Z-debug.log
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ npm install -g --save-dev clean-css-cli
+
+changed 15 packages, and audited 16 packages in 1s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[Pipeline] sh
++ npm install -g uglify-js
+
+changed 1 package, and audited 2 packages in 772ms
+
+found 0 vulnerabilities
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Compressing JS/CSS)
+[Pipeline] parallel
+[Pipeline] { (Branch: uglify-js)
+[Pipeline] { (Branch: clean-css)
+[Pipeline] stage
+[Pipeline] { (uglify-js)
+[Pipeline] stage
+[Pipeline] { (clean-css)
+[Pipeline] tool
+[Pipeline] tool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_56_074Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_56_919Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_57_725Z-debug.log
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
++ uglifyjs -o www/js/min.js
++ cat www/js/init.js www/js/jquery-2.1.1.min.js www/js/materialize.js www/js/materialize.min.js www/js/min.js www/js/modernizr.js
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_04_59_555Z-debug.log
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ cleancss -o www/css/min.css
++ cat www/css/font-awesome.min.css www/css/materialize.css www/css/materialize.min.css www/css/min.css www/css/style.css
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // parallel
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Archiving results)
+[Pipeline] tool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_05_11_753Z-debug.log
+[Pipeline] envVarsForTool
+$ /root/jenkins-slave/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs16/bin/npm install -g uglify-js, clean-css-cli
+npm ERR! code EINVALIDTAGNAME
+npm ERR! Invalid tag name "uglify-js,": Tags may not have any characters that encodeURIComponent encodes.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-10-17T21_05_12_600Z-debug.log
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] sh
++ tar -czvf results.tar.gz .gitignore www/js www/css
+.gitignore
+www/js/
+www/js/materialize.js
+www/js/jquery-2.1.1.min.js
+www/js/init.js
+www/js/min.js
+www/js/modernizr.js
+www/js/materialize.min.js
+www/css/
+www/css/font-awesome.min.css
+www/css/materialize.css
+www/css/style.css
+www/css/materialize.min.css
+www/css/min.css
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
