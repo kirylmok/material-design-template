@@ -16,7 +16,7 @@ pipeline {
 
         stage ('NPM installation') {
             steps {
-                sh "npm install -g --save-dev clean-css"
+                sh "npm install -g --save-dev clean-css-cli"
                 sh "npm install -g uglify-js"
             }
         }
