@@ -27,23 +27,27 @@ sudo systemctl enable jenkins
 
 <img src="./.images/jenkinsPort.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; width: 80%;
+  height: auto;" />
 
 ### Installation of plugins on Jenkins:
 
 <img src="./.images/githubPlugin.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; width: 80%;
+  height: auto;" />
 
 <img src="./.images/roleBasedPlugin.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; width: 80%;
+  height: auto;" />
 
 ### Adding new user in Jenkins:
 
 <img src="./.images/jenkinsNewUser.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; width: 60%;
+  height: auto;" />
 
 ### 2. Creating Agent VM:
 
@@ -71,29 +75,34 @@ nano ~/.ssh/authorized_keys # add here master node public key
 
 <img src="./.images/slaveNode.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 #### Adding agent credentials:
 
 <img src="./.images/slaveCredentials.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 <img src="./.images/slaveAndMasterNodes.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 ### 3. Configure tools – NodeJS:
 
 <img src="./.images/nodeJS.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 ### 4. Create “Multibranch Pipeline” pipeline job (work inside Lab folder):
 
 <img src="./.images/multibranchPipeline.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 #### Jenkinsfile:
 
@@ -159,16 +168,20 @@ pipeline {
 
 <img src="./.images/githubCredentials.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 <img src="./.images/personalAccessToken.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 <img src="./.images/githubWebhook.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
 
 <img src="./.images/webhookDeliveries.png"
      alt="Screenshot"
-     style="margin-left: auto; margin-right: auto" />
+     style="margin-left: auto; margin-right: auto; 60%;
+  height: auto;" />
